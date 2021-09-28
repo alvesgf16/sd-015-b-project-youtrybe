@@ -5,25 +5,67 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel='stylesheet' href='style.css'>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
   <title>YouTrybe</title>
 </head>
 <body>
   <header>
     <nav class='nav-bar'>
-      <div class='logo'>
-        <img class='logo-trybe' src='./assets/Kx6Wj0hl_400x400.jpg' alt='Trybe'>
-        <span>YouTrybe</span>
-      </div>
-      <div class='search'>
-        <input class='search-input' placeholder='pesquisar'>
-        <button class='search-button'>Pesquisar</button>
-      </div>
-      <div class='login'>
-        <input class='login-email' placeholder='Email'>
-        <input class='login-pwd' placeholder='Senha'>
-        <button class='submit'>Enviar</button>
-      </div>
+      <section class='upper-nav-bar'>
+        <div class='logo'>
+          <img class='logo-trybe' src='./assets/Kx6Wj0hl_400x400.jpg' alt='Trybe'>
+          <span>YouTrybe</span>
+        </div>
+        <div class='search'>
+          <input type='search' class='search-input' placeholder='pesquisar'>
+          <button type='button' class='search-button'>Pesquisar</button>
+        </div>
+        <div class='login'>
+          <input type='email' class='login-email' placeholder='Email'>
+          <input type='password' class='login-pwd' placeholder='Senha'>
+          <button type='submit' class='submit'>Enviar</button>
+        </div>
+      </section>
+      <section class='bottom-nav-bar'>
+        <div class='genre'>
+          <button type='button'>Música</button>
+          <button type='button'>Arquitetura</button>
+          <button type='button'>Inteligência artificial</button>
+          <button type='button'>Jogos</button>
+          <button type='button'>Política</button>
+          <button type='button'>Michael Jackson</button>
+        </div>
+      </section>
     </nav>
+    <section class='recomendations'>
+      <ul class='videos'>
+        <li>
+          <img id='vid1' src='https://i.ytimg.com/an_webp/MKKk445EUiw/mqdefault_6s.webp?du=3000&sqp=CIDrzYoG&rs=AOn4CLBdiWFnpPdC1zoDby1yOFvNVa0i_Q' alt='cliffside oceanfront California'>
+          <label for='vid1'>Tour em um Cliffside OceanFront California MEGA MANSION de $ 48.850.000</label>
+        </li>
+        <li>
+          <img id='vid2' src='https://i.ytimg.com/an_webp/SsJ_AusntiU/mqdefault_6s.webp?du=3000&sqp=CIfTzYoG&rs=AOn4CLCUOo4GDMMMY3J0xU5AewlL_YtT0g' alt='ai boxing'>
+          <label for='vid2'>This AI Learned Boxing…With Serious Knockout Power!</label>
+        </li>
+        <li>
+          <img id='vid3' src='https://i.ytimg.com/an_webp/-PSGrtPioRE/mqdefault_6s.webp?du=3000&sqp=CKjmzYoG&rs=AOn4CLAsL_uvJgGxJy_pcY2SMGU3rDPNrA' alt='the witcher Netflix'>
+          <label for='vid3'>Season 2 First Look Clip: Nivellen | The Witcher | Netflix</label>
+        </li>
+        <li>
+          <img id='vid4' src='https://i.ytimg.com/an_webp/vDrAmfRWcjA/mqdefault_6s.webp?du=3000&sqp=CKCGzooG&rs=AOn4CLAFPrWvrAbR0bsh6VfO5ICBTBh1lA' alt='hollywood hills mansion'>
+          <label for='vid4'>Dentro de uma mansão moderna FUTURÍSTICA em Hollywood Hills com teto retrátil!</label>
+        </li>
+        <li>
+          <img id='vid5' src='https://i.ytimg.com/an_webp/VBXqrBl6pEo/mqdefault_6s.webp?du=3000&sqp=CJD4zYoG&rs=AOn4CLBI0vAMNqD2otwuvCvppohfqKUihA' alt='the sandman Netflix'>
+          <label for='vid5'>The Sandman | First Look | Netflix</label>
+        </li>
+        <li>
+          <img id='vid6' src='https://i.ytimg.com/an_webp/wQATS4HOxdo/mqdefault_6s.webp?du=3000&sqp=CKyOzooG&rs=AOn4CLBs6CoF3i1vXykb59gH6BW7ipktTA'>
+          <label for='vid6'>State of Play | Revelação da Jogabilidade de Horizon Forbidden West</label>
+        </li>
+      </ul>
+    </section>
   </header>
 </body>
 </html>
