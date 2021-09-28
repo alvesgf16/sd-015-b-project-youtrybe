@@ -1,7 +1,7 @@
-.nav-bar {
+.header {
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 10px;
   background-color: darkgrey;
 }
 
@@ -11,6 +11,14 @@
   align-items: center;
   padding: 5px;
   font-size: 25px;
+}
+
+.logo-trybe {
+  margin: 10px;
+}
+
+.header > div {
+  width: 36%;
 }
 
 .under-title {
