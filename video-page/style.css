@@ -1,0 +1,14 @@
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: darkgrey;
+}
+
+.logo-div {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  padding: 5px;
+  font-size: 25px;
+}
