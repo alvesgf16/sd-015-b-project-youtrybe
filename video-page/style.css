@@ -58,17 +58,13 @@
 .main {
   display: flex;
   direction: row;
-  background-color: rgb(238, 150, 150);
-  
 }
 
 .division {
   width: 50%;
   padding: 5%;
   display: flex;
-    justify-content: center;
-    /* align-items: center; */
-  
+  justify-content: center;
 }
 
 main {
