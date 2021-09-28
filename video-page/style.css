@@ -23,9 +23,7 @@
 }
 
 .ex-video {
-  width: 50%; 
-  /* height: 360px;  */
-  margin-left: 100px;
+  width: 500px;
 }
 
 .bold {
@@ -48,4 +46,33 @@
 .suggestions {
   width: 30%;
   margin: 15px;
+}
+
+.teste {
+  width: 50%;
+  min-width: 250px;
+  display: inline-block;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+  direction: row;
+  background-color: rgb(238, 150, 150);
+  
+}
+
+.division {
+  width: 50%;
+  padding: 5%;
+  display: flex;
+    justify-content: center;
+    /* align-items: center; */
+  
+}
+
+main {
+  display: flex;
+    justify-content: center;
+    align-items: center;
 }
