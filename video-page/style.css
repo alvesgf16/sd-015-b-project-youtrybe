@@ -12,3 +12,31 @@
   padding: 5px;
   font-size: 25px;
 }
+
+.under-title {
+  display: flex;
+  align-items: center;
+}
+
+.space-padding {
+  padding-right: 15px;
+}
+
+.ex-video {
+  width: 50%; 
+  /* height: 360px;  */
+  margin-left: 100px;
+}
+
+.bold {
+  color: blue;
+  font-weight: bold;
+}
+
+.wide-btn {
+  width: 50%;
+}
+
+.top-space {
+  margin-top: 20px;
+}
