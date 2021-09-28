@@ -1,0 +1,51 @@
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: darkgrey;
+}
+
+.logo-div {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  padding: 5px;
+  font-size: 25px;
+}
+
+.under-title {
+  display: flex;
+  align-items: center;
+}
+
+.space-padding {
+  padding-right: 15px;
+}
+
+.ex-video {
+  width: 50%; 
+  /* height: 360px;  */
+  margin-left: 100px;
+}
+
+.bold {
+  color: blue;
+  font-weight: bold;
+}
+
+.wide-btn {
+  width: 50%;
+}
+
+.top-space {
+  margin-top: 20px;
+}
+
+.small-titles {
+  font-size: 14px;
+}
+
+.suggestions {
+  width: 30%;
+  margin: 15px;
+}

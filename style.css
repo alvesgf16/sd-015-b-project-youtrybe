@@ -14,8 +14,8 @@ body {
 .upper-nav-bar {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 20px;
+  padding: 10px;
+  background-color: darkgrey;
 }
 
 .upper-nav-bar>:nth-child() {
@@ -79,4 +79,8 @@ section>ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+
+.upper-nav-bar > div {
+  width: 36%;
 }
