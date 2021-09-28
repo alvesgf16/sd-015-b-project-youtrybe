@@ -1,0 +1,19 @@
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: darkgrey;
+}
+
+.logo {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  padding: 5px;
+  font-size: 25px;
+}
+
+.logo-trybe {
+  width: 70px;
+  border-radius: 50%;
+}
