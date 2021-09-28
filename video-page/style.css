@@ -40,3 +40,12 @@
 .top-space {
   margin-top: 20px;
 }
+
+.small-titles {
+  font-size: 14px;
+}
+
+.suggestions {
+  width: 30%;
+  margin: 15px;
+}
