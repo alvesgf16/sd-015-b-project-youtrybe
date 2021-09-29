@@ -23,7 +23,8 @@
 }
 
 .ex-video {
-  width: 500px;
+  display: block;
+    width: 150%;
 }
 
 .bold {
@@ -32,8 +33,7 @@
 }
 
 .wide-btn {
-  background-color: rgb(119, 119, 119);
-  border: none;
+
 }
 
 .top-space {
@@ -42,6 +42,13 @@
 
 .small-titles {
   font-size: 14px;
+}
+
+.suggestion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: rgb(214, 117, 117); */
 }
 
 .suggestions {
@@ -70,13 +77,47 @@
 
 .division {
   width: 50%;
-  padding: 5%;
+  margin: 5%;
   display: flex;
   justify-content: center;
 }
 
 main {
   display: flex;
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-secondary {
+background-color: #f0ffff;
+color: #000000;
+}
+
+.icons-size-2 {
+  width: 20px;
+}
+
+a.tag-a-link {
+  color: #000000 !important;
+  font-size: 20px;
+}
+
+.profile-thumb {
+  border-radius: 50%;
+  width: 70px;
+}
+
+.channel-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.channel {
+  display: flex;
+  align-items: center;
+}
+
+.channel-name {
+  margin-left: 20px;
 }

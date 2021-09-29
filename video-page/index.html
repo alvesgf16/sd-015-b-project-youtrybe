@@ -8,6 +8,7 @@
   <title>Colocar o nome do vídeo</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -33,33 +34,43 @@
     <div class="main grid">
       <section class="division container">
         <div class="teste g-col-6">
-          <h1 class="center-title">YouTrybe Capitions and Subtitles</h1>
-          <div class="under-title">
-            <h4 class="space-padding">YouTrybe</h4>
-            <span class="space-padding">88</span>
-            <h4 class="space-padding">vídeos</h4>
-            <button class="space-padding">Subscribe</button>
-          </div>
-          <div>
+
+          <div class="teste g-col-6">
             <img class="ex-video" src="/image/sample image for video.png" alt="ex video">
             <!-- <video src="" type="video"></video> -->
           </div>
-          <div class="top-space">
-            <button>Like</button>
-            <button>dislike</button>
-            <button>dislike</button>
-            <button>Add to list</button>
-            <button>Share</button>
-            <button>Bandeira</button>
-            <button>Icone</button>
-          </div>
           <div>
-            <h6>Update by <span class="bold">YouTrybe</span> on ***data que postou</h6>
+            <h2>Título do vídeo</h2>
+            <p>Visualizações - data que postou</p>
+            <div class="top-space">
+              <button class="btn-secondary" type="button"><img
+                  src="../icons/black-thumb_up/1x/outline_thumb_up_black_24dp.png"></button>
+              <button class="btn-secondary" type="button"><img
+                  src="../icons/black-thumb-down/1x/outline_thumb_down_black_24dp.png"></button>
+              <button class="btn-secondary" type="button"><img class="icons-size-2" src="../icons/share-icon-black.png">
+                Compartilhar</button>
+              <button class="btn-secondary" type="button"><img class="icons-size-2"
+                  src="../icons/save-icon-temporary.png">Salvar</button>
+            </div>
+            <hr>
           </div>
+
+          <section>
+            <div class="channel-info">
+              <div class="channel">
+                <img class="profile-thumb" src="../icons/trybe-icon-yt-temporary.jpg">
+                <p class="channel-name">Nome do canal</p>
+              </div>
+              <div class="g-ytsubscribe btn-subscribe" data-channel="GoogleDevelopers" data-layout="default"
+                data-count="default">
+              </div>
+            </div>
+          </section>
           <div class="d-grid gap-2">
             <h4 class="center-title">Descrição do vídeo</h4>
-            <button class="wide-btn btn btn-primary" type="button">Show more</button>
+            <a class="btn btn-link tag-a-link center-title">Show more</a>
           </div>
+          <hr>
           <section>
             <div>
               <h4>@usuario **data do comentário</h4>
@@ -70,9 +81,11 @@
                 Naruto). E coincidiu de eu voltar a te acompanhar com frequência agora no pokémon, gosto da sua
                 abordagem
                 sobre os jogos que fica divertido de assistir sem ser forçado.Parabens pelo trabalho</p>
-              <button>Like</button>
-              <button>dislike</button>
-              <button>Responder</button>
+              <button class="btn-secondary" type="button"><img
+                  src="../icons/black-thumb_up/1x/outline_thumb_up_black_24dp.png"></button>
+              <button class="btn-secondary" type="button"><img
+                  src="../icons/black-thumb-down/1x/outline_thumb_down_black_24dp.png"></button>
+              <a class="btn btn-link tag-a-link" href="">Responder</a>
             </div>
             <div>
               <h4>@usuario **data do comentário</h4>
@@ -84,16 +97,18 @@
                 abordagem
                 sobre os jogos que fica divertido de assistir sem ser forçado.Parabens pelo trabalho</p>
 
-              <button>Like</button>
-              <button>dislike</button>
-              <button>Responder</button>
+              <button class="btn-secondary" type="button"><img
+                  src="../icons/black-thumb_up/1x/outline_thumb_up_black_24dp.png"></button>
+              <button class="btn-secondary" type="button"><img
+                  src="../icons/black-thumb-down/1x/outline_thumb_down_black_24dp.png"></button>
+              <a class="btn btn-link tag-a-link" href="">Responder</a>
             </div>
           </section>
         </div>
       </section>
       <section class="division">
         <div class="teste g-col-6">
-          <section class="suggestion">
+          <section class="">
             <div class="suggestion">
               <h5 class="center-title small-titles">Suggestions</h5>
               <img class="suggestions" src="/image/sample image for video.png" alt="ex video">
@@ -106,6 +121,7 @@
       </section>
     </div>
   </main>
+  <script src="https://apis.google.com/js/platform.js"></script>
 
 </body>
 
