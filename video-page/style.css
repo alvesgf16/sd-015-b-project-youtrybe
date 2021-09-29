@@ -23,9 +23,7 @@
 }
 
 .ex-video {
-  width: 50%; 
-  /* height: 360px;  */
-  margin-left: 100px;
+  width: 500px;
 }
 
 .bold {
@@ -34,7 +32,8 @@
 }
 
 .wide-btn {
-  width: 50%;
+  background-color: rgb(119, 119, 119);
+  border: none;
 }
 
 .top-space {
@@ -46,6 +45,38 @@
 }
 
 .suggestions {
+  display: flex;
   width: 30%;
   margin: 15px;
+  min-width: 300px;
+  justify-self: center;
+}
+
+.center-title {
+  text-align: center;
+}
+
+.teste {
+  width: 50%;
+  min-width: 95%;
+  display: inline-block;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+  direction: row;
+}
+
+.division {
+  width: 50%;
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+    justify-content: center;
+    align-items: center;
 }
