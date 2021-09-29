@@ -16,15 +16,17 @@
   <header class="fixed-top">
     <nav class='nav-bar'>
       <div class='logo-div'>
-        <img width="36" height="41" src="/image/main_logopng" alt="Trybe">
-        <p>YouTrybe</p>
+        <a href="/" class="logo d-flex align-items-center mb-3 mb-md-0 text-dark text-decoration-none">
+          <img width="36" height="41" src="/image/main_logopng" alt="Trybe">
+          <span class="logo-title">YouTrybe</span>
+        </a>
       </div>
       <div class="search">
         <input class='search-input' placeholder='pesquisar'>
-        <button class='search-button'>Pesquisar</button>
+        <button class='search-button'><img src="../icons/black-lupa/1x/outline_search_black_24dp.png"></button>
       </div>
-      <form>
-        <div class='login'>
+      <form class='login'>
+        <div>
           <input class='login-email' placeholder='Email'>
           <input class='login-pwd' placeholder='Senha'>
           <button class='submit'>Enviar</button>
@@ -36,7 +38,6 @@
     <div class="main">
       <section class="division container">
         <div class="teste">
-
           <div class="div-video">
             <div class="video">
               <div id="player" class="ex-video"></div>
