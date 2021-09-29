@@ -32,7 +32,8 @@
 }
 
 .wide-btn {
-  width: 50%;
+  background-color: rgb(119, 119, 119);
+  border: none;
 }
 
 .top-space {
@@ -44,13 +45,20 @@
 }
 
 .suggestions {
+  display: flex;
   width: 30%;
   margin: 15px;
+  min-width: 300px;
+  justify-self: center;
+}
+
+.center-title {
+  text-align: center;
 }
 
 .teste {
   width: 50%;
-  min-width: 250px;
+  min-width: 95%;
   display: inline-block;
   align-items: center;
 }
