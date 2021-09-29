@@ -6,13 +6,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Colocar o nome do vídeo</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <header class="header d-flex flex-wrap align-items-center py-3 mb-4 border-bottom">
-    <a href="/" class="logo-div d-flex align-items-center mb-3 mb-md-0 text-dark text-decoration-none">
+  <header class="upper-header d-flex flex-wrap align-items-center py-3 border-bottom">
+    <a href="/" class="logo d-flex align-items-center mb-3 mb-md-0 text-dark text-decoration-none">
       <img class="logo-trybe" width="36" height="41" src="/image/main_logopng" alt="Trybe">
       <span>YouTrybe</span>
     </a>
@@ -42,70 +44,115 @@
 
   <main>
     <div class="main">
-      <h1>YouTrybe Capitions and Subtitles</h1>
-      <div class="under-title">
-        <h4 class="space-padding">YouTrybe</h4>
-        <span class="space-padding">88</span>
-        <h4 class="space-padding">vídeos</h4>
-        <button class="space-padding">Subscribe</button>
-      </div>
-      <div>
-        <img class="ex-video" src="/image/sample image for video.png" alt="ex video">
-        <video src="" type="video"></video>
-      </div>
-      <div class="top-space">
-        <button>Like</button>
-        <button>dislike</button>
-        <button>dislike</button>
-        <button>Add to list</button>
-        <button>Share</button>
-        <button>Bandeira</button>
-        <button>Icone</button>
-      </div>
-      <div>
-        <h6>Update by <span class="bold">YouTrybe</span> on ***data que postou</h6>
-      </div>
-      <div>
-        <h4>Descrição do vídeo</h4>
-        <button class="wide-btn">Show more</button>
-      </div>
-      <section>
-        <div>
-          <h4>@usuario **data do comentário</h4>
-          <p>Exemplo: Engraçado que eu te acompanhava na época do Naruto online, vi alguns vídeos do cdz mas não curto
-            muito
-            gacha(tempo/dinheiro) investido que no longo prazo não vale a pena pra mim(aprendi com os prejuízos do
-            Naruto). E coincidiu de eu voltar a te acompanhar com frequência agora no pokémon, gosto da sua abordagem
-            sobre os jogos que fica divertido de assistir sem ser forçado.Parabens pelo trabalho</p>
-          <button>Like</button>
-          <button>dislike</button>
-          <button>Responder</button>
-        </div>
-        <div>
-          <h4>@usuario **data do comentário</h4>
-          <p>Exemplo: Engraçado que eu te acompanhava na época do Naruto online, vi alguns vídeos do cdz mas não curto
-            muito
-            gacha(tempo/dinheiro) investido que no longo prazo não vale a pena pra mim(aprendi com os prejuízos do
-            Naruto). E coincidiu de eu voltar a te acompanhar com frequência agora no pokémon, gosto da sua abordagem
-            sobre os jogos que fica divertido de assistir sem ser forçado.Parabens pelo trabalho</p>
+      <section class="division container">
+        <div class="teste">
+          <div class="div-video">
+            <div class="video">
+              <div id="player" class="ex-video"></div>
+            </div>
+          </div>
+          <section class="">
+            <h2>Título do vídeo</h2>
+            <section>
+              <div class="channel-info">
+                <div class="channel">
+                  <p>Visualizações - data que postou</p>
+                </div>
+                <div class=" top-space">
+                  <button class="btn-secondary" type="button"><img
+                      src="../icons/black-thumb_up/1x/outline_thumb_up_black_24dp.png"></button>
+                  <button class="btn-secondary" type="button"><img
+                      src="../icons/black-thumb-down/1x/outline_thumb_down_black_24dp.png"></button>
+                  <button class="btn-secondary" type="button"><img class="icons-size-2"
+                      src="../icons/share-icon-black.png">
+                    Compartilhar</button>
+                  <button class="btn-secondary" type="button"><img class="icons-size-2"
+                      src="../icons/save-icon-temporary.png">Salvar</button>
+                </div>
+              </div>
+            </section>
+            <hr>
+          </section>
 
-          <button>Like</button>
-          <button>dislike</button>
-          <button>Responder</button>
+          <section>
+            <div class="channel-info">
+              <div class="channel">
+                <img class="profile-thumb" src="../icons/trybe-icon-yt-temporary.jpg">
+                <p class="channel-name">Nome do canal</p>
+              </div>
+              <div class="g-ytsubscribe btn-subscribe" data-channel="GoogleDevelopers" data-layout="default"
+                data-count="default">
+              </div>
+            </div>
+          </section>
+          <div class="d-grid gap-2">
+            <h4 class="center-title">Descrição do vídeo</h4>
+            <a class="btn btn-link tag-a-link center-title">Show more</a>
+          </div>
+          <hr>
+          <section>
+            <div>
+              <h4>@usuario **data do comentário</h4>
+              <p>Exemplo: Engraçado que eu te acompanhava na época do Naruto online, vi alguns vídeos do cdz mas não
+                curto
+                muito
+                gacha(tempo/dinheiro) investido que no longo prazo não vale a pena pra mim(aprendi com os prejuízos do
+                Naruto). E coincidiu de eu voltar a te acompanhar com frequência agora no pokémon, gosto da sua
+                abordagem
+                sobre os jogos que fica divertido de assistir sem ser forçado.Parabens pelo trabalho</p>
+              <button class="btn-secondary" type="button"><img
+                  src="../icons/black-thumb_up/1x/outline_thumb_up_black_24dp.png"></button>
+              <button class="btn-secondary" type="button"><img
+                  src="../icons/black-thumb-down/1x/outline_thumb_down_black_24dp.png"></button>
+              <a class="btn btn-link tag-a-link" href="">Responder</a>
+            </div>
+            <div>
+              <h4>@usuario **data do comentário</h4>
+              <p>Exemplo: Engraçado que eu te acompanhava na época do Naruto online, vi alguns vídeos do cdz mas não
+                curto
+                muito
+                gacha(tempo/dinheiro) investido que no longo prazo não vale a pena pra mim(aprendi com os prejuízos do
+                Naruto). E coincidiu de eu voltar a te acompanhar com frequência agora no pokémon, gosto da sua
+                abordagem
+                sobre os jogos que fica divertido de assistir sem ser forçado.Parabens pelo trabalho</p>
+
+              <button class="btn-secondary" type="button"><img
+                  src="../icons/black-thumb_up/1x/outline_thumb_up_black_24dp.png"></button>
+              <button class="btn-secondary" type="button"><img
+                  src="../icons/black-thumb-down/1x/outline_thumb_down_black_24dp.png"></button>
+              <a class="btn btn-link tag-a-link" href="">Responder</a>
+            </div>
+          </section>
         </div>
       </section>
-      <section>
-        <div class="suggestion">
-          <h5 class="small-titles">Suggestions</h5>
-          <img class="suggestions" src="/image/sample image for video.png" alt="ex video">
-          <img class="suggestions" src="/image/sample image for video.png" alt="ex video">
-          <img class="suggestions" src="/image/sample image for video.png" alt="ex video">
-          <img class="suggestions" src="/image/sample image for video.png" alt="ex video">
+      <section class="division">
+        <div class="teste">
+          <section class="">
+            <div class="suggestion">
+              <section class='bottom-nav-bar'>
+                <div class='genre'>
+                  <button type='button'>Música</button>
+                  <button type='button'>Arquitetura</button>
+                  <button type='button'>Inteligência artificial</button>
+                  <button type='button'>Jogos</button>
+                  <button type='button'>Política</button>
+                  <button type='button'>Michael Jackson</button>
+                </div>
+              </section>
+
+              <img class="suggestions" src="/image/sample image for video.png" alt="ex video">
+              <img class="suggestions" src="/image/sample image for video.png" alt="ex video">
+              <img class="suggestions" src="/image/sample image for video.png" alt="ex video">
+              <img class="suggestions" src="/image/sample image for video.png" alt="ex video">
+            </div>
+          </section>
         </div>
       </section>
     </div>
   </main>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+  <script src="https://apis.google.com/js/platform.js"></script>
+  <script src="./script.js"></script>
 </body>
 
 </html>

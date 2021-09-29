@@ -1,13 +1,30 @@
-.header {
-  display: flex;
-  justify-content: space-between;
-  padding: 10px;
-  background-color: darkgrey;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.logo-div {
+body {
+  background-color: rgb(249, 249, 249);
+}
+
+.header {
   display: flex;
-  flex-flow: row;
+  position: fixed;
+  flex-flow: column;
+  background-color: rgb(71, 71, 71);
+  width: 100%;
+  color: rgb(255, 242, 225);
+}
+
+.upper-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: darkgrey;
+  padding: 10px;
+}
+
+.logo {
+  display: flex;
   align-items: center;
   padding: 5px;
   font-size: 25px;
@@ -17,43 +34,100 @@
   margin: 10px;
 }
 
-.header > div {
+.upper-header > div {
   width: 36%;
 }
 
-.under-title {
+main {
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 
-.space-padding {
-  padding-right: 15px;
+.main {
+  display: flex;
+  direction: row;
+  margin-top: 75px;
+}
+
+.division {
+  width: 50%;
+  margin: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+.div-video {
+  width: 50%;
+  min-width: 95%;
+  display: inline-block;
+  align-items: center;
 }
 
 .ex-video {
-  width: 50%; 
-  /* height: 360px;  */
-  margin-left: 100px;
+  display: block;
+    width: 150%;
+    height: 650px;
 }
 
-.bold {
-  color: blue;
-  font-weight: bold;
+.channel-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.wide-btn {
-  width: 50%;
+.channel {
+  display: flex;
+  align-items: center;
 }
 
 .top-space {
   margin-top: 20px;
 }
 
-.small-titles {
-  font-size: 14px;
+.icons-size-2 {
+  width: 20px;
+}
+
+.profile-thumb {
+  border-radius: 50%;
+  width: 70px;
+}
+
+.channel-name {
+  margin-left: 20px;
+}
+
+.center-title {
+  text-align: center;
+}
+
+a.tag-a-link {
+  color: #000000 !important;
+  font-size: 20px;
+}
+
+.suggestion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bottom-nav-bar {
+  padding-bottom: 1%;
+  display: flex;
+  justify-content: center;
+  margin-left: 25px;
+}
+
+.bottom-nav-bar>:nth-child() {
+  flex-shrink: 4;
 }
 
 .suggestions {
+  display: flex;
   width: 30%;
   margin: 15px;
+  min-width: 300px;
+  justify-self: center;
 }
