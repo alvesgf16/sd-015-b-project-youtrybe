@@ -9,76 +9,111 @@
   <title>YouTrybe</title>
 </head>
 <body>
-  <header class="header d-flex flex-wrap align-items-center py-3 mb-4 border-bottom">
-    <nav class='nav-bar'>
-      <section class='upper-nav-bar'>
-        <a href="/" class="logo d-flex align-items-center mb-3 mb-md-0 text-dark text-decoration-none">
-          <img class="logo-trybe" width="36" height="41" src="/image/main_logopng" alt="Trybe">
-          <span>YouTrybe</span>
-        </a>
-        <div>
-          <form class="search row g-2">
-            <div class="input-group col-12">
-              <input type="search" class='search-input form-control' placeholder='Pesquisar...'>
-              <button class='search-button btn btn-secondary'>Pesquisar</button>
-            </div>
-          </form>
-        </div>
+  <div class="header"></div>
+    <header class="upper-header d-flex flex-wrap align-items-center py-3 border-bottom">
+      <a href="/" class="logo d-flex align-items-center mb-3 mb-md-0 text-dark text-decoration-none">
+        <img class="logo-trybe" width="36" height="41" src="/image/main_logopng" alt="Trybe">
+        <span>YouTrybe</span>
+      </a>
+      <div>
+        <form class="search row g-2">
+          <div class="input-group col-12">
+            <input type="search" class='search-input form-control' placeholder='Pesquisar...'>
+            <button class='search-button btn btn-secondary'>Pesquisar</button>
+          </div>
+        </form>
+      </div>
+  
+      <div>
+        <form class="login row g-1">
+          <div class="col-5">
+            <input type="email" class='login-email form-control' placeholder='E-mail'>
+          </div>
+          <div class="col-4">
+            <input type="password" class='login-pwd form-control' placeholder='Senha'>
+          </div>
+          <div class="col-auto">
+            <button class='submit btn btn-primary'>Enviar</button>
+          </div>
+        </form>
+      </div>
+    </header>
 
-        <div>
-          <form class="login row g-1">
-            <div class="col-5">
-              <input type="email" class='login-email form-control' placeholder='E-mail'>
-            </div>
-            <div class="col-4">
-              <input type="password" class='login-pwd form-control' placeholder='Senha'>
-            </div>
-            <div class="col-auto">
-              <button class='submit btn btn-primary'>Enviar</button>
-            </div>
-          </form>
-        </div>
-      </section>
-      <section class='bottom-nav-bar'>
-        <div class='genre'>
-          <button type='button'>Música</button>
-          <button type='button'>Arquitetura</button>
-          <button type='button'>Inteligência artificial</button>
-          <button type='button'>Jogos</button>
-          <button type='button'>Política</button>
-          <button type='button'>Michael Jackson</button>
-        </div>
-      </section>
+    <nav class='bottom-header py-2 bg-light'>
+      <div class="container d-flex flex-wrap">
+        <ul class='genre nav me-auto'>
+          <li class="nav-item"><a href="" class="nav-link link-dark px-2">Música</a></li>
+          <li class="nav-item"><a href="" class="nav-link link-dark px-2">Arquitetura</a></li>
+          <li class="nav-item"><a href="" class="nav-link link-dark px-2">Inteligência artificial</a></li>
+          <li class="nav-item"><a href="" class="nav-link link-dark px-2">Jogos</a></li>
+          <li class="nav-item"><a href="" class="nav-link link-dark px-2">Política</a></li>
+          <li class="nav-item"><a href="" class="nav-link link-dark px-2">Michael Jackson</a></li>
+        </ul>
+      </div>
     </nav>
-    <section class='recomendations'>
-      <ul class='videos'>
-        <li>
-          <img id='vid1' src='https://i.ytimg.com/an_webp/MKKk445EUiw/mqdefault_6s.webp?du=3000&sqp=CIDrzYoG&rs=AOn4CLBdiWFnpPdC1zoDby1yOFvNVa0i_Q' alt='cliffside oceanfront California'>
-          <label for='vid1'>Tour em um Cliffside OceanFront California MEGA MANSION de $ 48.850.000</label>
-        </li>
-        <li>
-          <img id='vid2' src='https://i.ytimg.com/an_webp/SsJ_AusntiU/mqdefault_6s.webp?du=3000&sqp=CIfTzYoG&rs=AOn4CLCUOo4GDMMMY3J0xU5AewlL_YtT0g' alt='ai boxing'>
-          <label for='vid2'>This AI Learned Boxing…With Serious Knockout Power!</label>
-        </li>
-        <li>
-          <img id='vid3' src='https://i.ytimg.com/an_webp/-PSGrtPioRE/mqdefault_6s.webp?du=3000&sqp=CKjmzYoG&rs=AOn4CLAsL_uvJgGxJy_pcY2SMGU3rDPNrA' alt='the witcher Netflix'>
-          <label for='vid3'>Season 2 First Look Clip: Nivellen | The Witcher | Netflix</label>
-        </li>
-        <li>
-          <img id='vid4' src='https://i.ytimg.com/an_webp/vDrAmfRWcjA/mqdefault_6s.webp?du=3000&sqp=CKCGzooG&rs=AOn4CLAFPrWvrAbR0bsh6VfO5ICBTBh1lA' alt='hollywood hills mansion'>
-          <label for='vid4'>Dentro de uma mansão moderna FUTURÍSTICA em Hollywood Hills com teto retrátil!</label>
-        </li>
-        <li>
-          <img id='vid5' src='https://i.ytimg.com/an_webp/VBXqrBl6pEo/mqdefault_6s.webp?du=3000&sqp=CJD4zYoG&rs=AOn4CLBI0vAMNqD2otwuvCvppohfqKUihA' alt='the sandman Netflix'>
-          <label for='vid5'>The Sandman | First Look | Netflix</label>
-        </li>
-        <li>
-          <img id='vid6' src='https://i.ytimg.com/an_webp/wQATS4HOxdo/mqdefault_6s.webp?du=3000&sqp=CKyOzooG&rs=AOn4CLBs6CoF3i1vXykb59gH6BW7ipktTA'>
-          <label for='vid6'>State of Play | Revelação da Jogabilidade de Horizon Forbidden West</label>
-        </li>
-      </ul>
-    </section>
-  </header>
+  </div>
+
+  <div class="album py-5 bg-light">
+    <div class="recommendations container">
+      <div class="videos row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" id='vid1' src='https://i.ytimg.com/an_webp/MKKk445EUiw/mqdefault_6s.webp?du=3000&sqp=CIDrzYoG&rs=AOn4CLBdiWFnpPdC1zoDby1yOFvNVa0i_Q' alt='cliffside oceanfront California'>
+
+            <div class="card-body">
+              <label for="vid1" class="card-text">Tour em um Cliffside OceanFront California MEGA MANSION de $ 48.850.000</label>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" id='vid2' src='https://i.ytimg.com/an_webp/SsJ_AusntiU/mqdefault_6s.webp?du=3000&sqp=CIfTzYoG&rs=AOn4CLCUOo4GDMMMY3J0xU5AewlL_YtT0g' alt='ai boxing'>
+
+            <div class="card-body">
+              <label for="vid2" class="card-text">This AI Learned Boxing…With Serious Knockout Power!</label>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" id='vid3' src='https://i.ytimg.com/an_webp/-PSGrtPioRE/mqdefault_6s.webp?du=3000&sqp=CKjmzYoG&rs=AOn4CLAsL_uvJgGxJy_pcY2SMGU3rDPNrA' alt='The Witcher Netflix'>
+
+            <div class="card-body">
+              <label for="vid3" class="card-text">Season 2 First Look Clip: Nivellen | The Witcher | Netflix</label>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" id='vid4' src='https://i.ytimg.com/an_webp/vDrAmfRWcjA/mqdefault_6s.webp?du=3000&sqp=CKCGzooG&rs=AOn4CLAFPrWvrAbR0bsh6VfO5ICBTBh1lA' alt='hollywood hills mansion'>
+
+            <div class="card-body">
+              <label for="vid4" class="card-text">Dentro de uma mansão moderna FUTURÍSTICA em Hollywood Hills com teto retrátil!</label>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" id='vid5' src='https://i.ytimg.com/an_webp/VBXqrBl6pEo/mqdefault_6s.webp?du=3000&sqp=CJD4zYoG&rs=AOn4CLBI0vAMNqD2otwuvCvppohfqKUihA' alt='the sandman Netflix'>
+
+            <div class="card-body">
+              <label for="vid5" class="card-text">The Sandman | First Look | Netflix</label>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" id='vid6' src='https://i.ytimg.com/an_webp/wQATS4HOxdo/mqdefault_6s.webp?du=3000&sqp=CKyOzooG&rs=AOn4CLBs6CoF3i1vXykb59gH6BW7ipktTA'>
+
+            <div class="card-body">
+              <label for="vid6" class="card-text">State of Play | Revelação da Jogabilidade de Horizon Forbidden West</label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </body>
 </html>
